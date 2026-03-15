@@ -405,7 +405,7 @@ class DeepSeekWorker(QThread):
     def run(self):
         try:
             client = OpenAI(
-                api_key="sk-88c66f870fec4adab2dfee1b2280f8a7",
+                api_key="YOUR_APIKEY",
                 base_url="https://api.deepseek.com"
             )
 
